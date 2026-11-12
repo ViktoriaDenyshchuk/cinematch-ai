@@ -141,7 +141,7 @@ https://grouplens.org/datasets/movielens/
 ### Клонування репозиторію
 
 ```bash
-git clone <URL_ВАШОГО_РЕПОЗИТОРІЮ>
+git clone git clone https://github.com/ViktoriaDenyshchuk/cinematch-ai.git
 cd cinematch-ai
 ```
 
@@ -158,11 +158,27 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+
 ### Підготовка даних
 
-Завантажити MovieLens Latest Small з офіційного сайту
-та розмістити movies.csv, ratings.csv і links.csv
-у папці data/.
+Для роботи застосунку використовується датасет
+MovieLens Latest Small від GroupLens Research.
+
+1. Завантажити архів:
+   https://files.grouplens.org/datasets/movielens/ml-latest-small.zip
+
+2. Розпакувати архів.
+
+3. Створити папку `data` в корені проєкту.
+
+4. Скопіювати до неї три файли:
+   - movies.csv
+   - ratings.csv
+   - links.csv
+
+CSV-файли не включені до GitHub-репозиторію.
+Користувач завантажує їх самостійно з офіційного джерела.
+
 
 ### Налаштування API
 
